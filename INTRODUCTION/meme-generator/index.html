@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Arvo&display=swap" rel="stylesheet">
+        <title>Meme Generator</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Meme Generator</h1>
+        </header>
+        <article>
+            <section class="lado-esquerdo">
+                <p class="welcome">Bem-vindo ao meme generator!<br>Solte sua criative e aproveite o site.</p>
+                <form class="image">
+                    <label for="meme-insert">Selecionar imagem:</label>
+                    <input type="file" id="meme-insert">
+                </form>
+                <p class="aviso">Aviso importante, independente do tamanho da sua imagem ela será redimencionada para 400x400px, recomendo então que você opte por imagens quadradas ou já com o tamanho informado, isso garantira a qualidade do seu meme!</p>
+                <form class="text">
+                    <label for="text-input">Texto do meme:</label>
+                    <input type="text" id="text-input" maxlength="60">
+                </form>
+                <button class="buttons" id="button1">Borda 1</button>
+                <button class="buttons" id="button2">Borda 2</button>
+                <button class="buttons" id="button3">Borda 3</button>
+                <br>
+                <p>Não está com vontade de adicionar uma imagem do seu computador?<br>Sem problemas! Selecione uma imagem de nossa galeria:</p>
+                <img class="memesSite" id="meme-1" src="imgs/meme1.jpeg" alt="Meme riquinho playboy">
+                <img class="memesSite" id="meme-2" src="imgs/meme2.jpeg" alt="Meme Chapolin Colorado">
+                <img class="memesSite" id="meme-3" src="imgs/meme3.jpeg" alt="Meme menina e diabo">
+                <img class="memesSite" id="meme-4" src="imgs/meme4.jpeg" alt="Meme me solta">
+            </section>
+            <section class="lado-direito">
+                <div class="editImage" id="meme-image-container">
+                    <img id="meme-image">
+                </div>
+                <p class="editText" id="meme-text"></p>
+            </section>
+        </article>
+        <footer>
+            <p>Página desenvolvida por <a href="https://gomesanac.github.io/" target="_blank">Ana Carolina Gomes</a> em Fevereito de 2020.</p>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>

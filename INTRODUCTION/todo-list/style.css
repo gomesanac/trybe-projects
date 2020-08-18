@@ -1,0 +1,53 @@
+button {
+  background-color: lightgray;
+  border: 2px solid lavender;
+  border-radius: 4px;
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: lavender;
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+}
+
+.tarefa {
+  display: inline-block;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+body {
+  background-color: lavender;
+}
+
+header {
+  text-align: center;
+}
+
+article {
+  background-color: honeydew;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+footer {
+  background-color: honeydew;
+  padding: 3px;
+  text-align: center;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Lista de Tarefas</h1>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo.<br>Clique uma vez em um item para seleciona-lo.</p>
+    </header>
+    <article>
+        <form class="tarefa">
+            <label for="texto-tarefa">Entre com a tarefa:</label>
+            <input id="texto-tarefa">
+        </form>
+        <button class="tarefa" id="criar-tarefa">Adicionar tarefa</button>
+        <ol id="lista-tarefas"></ol>
+        <button id="salvar-tarefas">Salvar lista</button>
+        <button id="apaga-tudo">Pagar lista</button>
+        <button id="remover-finalizados">Remover itens finalizados</button>
+        <button id="remover-selecionado">Remover item selecionado</button>
+        <button id="mover-cima">Mover tarefa para cima</button>
+        <button id="mover-baixo">Mover tarefa para baixo</button>
+    </article>
+    <footer>
+        <p>Página desenvolvida por <a href="https://gomesanac.github.io/" target="_blank">Ana Carolina Gomes</a> em Março de 2020.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

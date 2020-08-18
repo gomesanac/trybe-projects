@@ -1,0 +1,70 @@
+h1 {
+  color: rgb(51, 24, 50);
+  font-size: 50px;
+  margin: 0 0 5px;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(192, 224, 220);
+  padding-bottom: 20px;
+}
+
+article {
+  background-color: rgba(105, 77, 117, 0.5);
+  border: 1px solid rgb(51, 24, 50);
+  border-bottom: none;
+  margin: 0 20px;
+  padding: 20px 20px 1px;
+}
+
+.paleta {
+  text-align: center;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+}
+
+.pixelBoard {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  height: 41px;
+  width: 41px;
+}
+
+button {
+  background-color: rgb(197, 218, 193);
+  border: 1px solid rgb(105, 77, 117);
+  display: block;
+  margin: 5px auto;
+  padding: 5px 10px;
+}
+
+form {
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(105, 77, 117, 0.5);
+  border: 1px solid rgb(51, 24, 50);
+  border-top: none;
+  margin: 0 20px;
+  padding: 1px 10px 10px;
+  text-align: center;
+}
+
+a {
+  color: rgb(51, 24, 50);
+  text-decoration: none;
+}

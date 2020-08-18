@@ -1,0 +1,122 @@
+span {
+  margin: 0 5px;
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: rotate(-5deg);
+}
+
+.rotateright {
+  transform: rotate(5deg);
+}
+
+.skewleft {
+  transform: skewX(10deg);
+}
+
+.skewright {
+  transform: skewX(-10deg);
+}
+
+body {
+  background-color: mintcream;
+  font-family: Courier New, Courier, monospace;
+}
+
+.main {
+  background-color: rgb(190 , 211 , 199);
+  border: 2px solid oldlace;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form input {
+  background-color: mintcream;
+  border: 1px solid oldlace;
+  border-radius: 4px;
+}
+
+.button {
+  margin: 20px 0 25px;
+  text-align: center;
+}
+
+.button .button1 , .button .button2 {
+  background-color: mintcream;
+  border: 1px solid oldlace;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.button .button1:hover , .button .button2:hover {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.paragraph {
+  text-align: center;
+  word-break: break-all;
+}
+
+.paragraph .p1 {
+  line-height: 80px;
+}
+
+.footer {
+  background-color: oldlace;
+  padding: 2px;
+  text-align: center;
+}
+
+a {
+  color: rgb(190 , 211 , 199);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(190 , 211 , 199 , 0.5);
+}

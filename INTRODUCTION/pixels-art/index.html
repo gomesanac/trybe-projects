@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <title>Pixels Art</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <article id="article">
+        <section class="paleta">
+            <div id="color-palette">
+                <div class="color selected"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+        </section>
+        <br>
+        <section>
+            <table class="pixelBoard" id="pixel-board">
+                <tbody>
+                    <tr>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                    </tr>
+                    <tr>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                    </tr>
+                    <tr>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                    </tr>
+                    <tr>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                    </tr>
+                    <tr>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                        <td class="pixel"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <section>
+            <form>
+                <label for="board-size">Entre com o tamanho do quadro (5 a 50):</label>
+                <input id="board-size">
+            </form>
+            <br>
+            <button id="generate-board">Gerar quadro</button>
+            <button id="clear-board">Limpar quadro</button>
+        </section>
+    </article>
+    <footer>
+        <p>Página desenvolvida por <a href="https://gomesanac.github.io/" target="_blank">Ana Carolina Gomes</a> em Fevereito de 2020.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
