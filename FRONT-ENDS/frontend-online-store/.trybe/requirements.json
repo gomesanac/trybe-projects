@@ -1,0 +1,48 @@
+{
+  "requirements": [{
+    "description": "Requisito 1",
+    "bonus": false
+  }, {
+    "description": "Requisito 2",
+    "bonus": false
+  }, {
+    "description": "Requisito 3",
+    "bonus": false
+  }, {
+    "description": "Requisito 4",
+    "bonus": false
+  }, {
+    "description": "Requisito 5",
+    "bonus": false
+  }, {
+    "description": "Requisito 6",
+    "bonus": false
+  }, {
+    "description": "Requisito 7",
+    "bonus": false
+  }, {
+    "description": "Requisito 8",
+    "bonus": false
+  }, {
+    "description": "Requisito 9",
+    "bonus": false
+  }, {
+    "description": "Requisito 10",
+    "bonus": false
+  }, {
+    "description": "Requisito 11",
+    "bonus": false
+  }, {
+    "description": "Requisito 12",
+    "bonus": false
+  }, {
+    "description": "Requisito 13",
+    "bonus": true
+  }, {
+    "description": "Requisito 14",
+    "bonus": true
+  }, {
+    "description": "Requisito 15",
+    "bonus": true
+  }]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "sd-01-week14-js-unit-tests",
+  "version": "1.0.0",
+  "description": "Project for module 14",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betrybe/sd-01-week14-js-unit-tests.git"
+  },
+  "keywords": [
+    "javascript",
+    "tests",
+    "assert",
+    "jest"
+  ],
+  "author": "Jean Vasconcelos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/betrybe/sd-01-week14-js-unit-tests/issues"
+  },
+  "homepage": "https://github.com/betrybe/sd-01-week14-js-unit-tests#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "acorn": ">=5.7.4",
+    "minimist": ">=1.2.2"
+  }
+}
